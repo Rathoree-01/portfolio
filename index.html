@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha Rathore Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            text-align: center;
+        }
+
+        .profile-info h2 {
+            margin-top: 0;
+        }
+
+        .profile-info p {
+            margin-bottom: 0;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h3 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .about-me {
+            text-align: justify;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+        }
+
+        .skill-progress {
+            width: 80%;
+            height: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+
+        .skill-bar {
+            height: 100%;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        .participation {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .participation-item {
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        .participation-title {
+            font-weight: bold;
+        }
+
+        .participation-details {
+            margin-top: 5px;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        .contact-icon {
+            font-size: 20px;
+        }
+
+        .contact-info {
+            margin-left: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-image">
+                <img src="img.jpg" alt="isha rathore">
+            </div>
+            <div class="profile-info">
+                <h2>Isha Rathore</h2>
+                <p>3rd year cse student</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>About Me</h3>
+            <p class="about-me">Currently a 3rd year student pursuing Computer Science Engineering,excelling in Web Development.Looking forward to opportunity that will polish my skills.Quick and passionate learner. </p>
+        </div>
+
+        <div class="section">
+            <h3>Education</h3>
+            <p>10th :70.6  </p>
+            <p>12th:72.8</p>
+            <p>Computer Science -Acharya Institute of technology (2021-2025)</p>
+            
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <div class="skills-container">
+                <div class="skill-item">kk
+                    <span class="skill-name">HTML</span>
+                    <div class="skill-progress">
+                        <div class="skill-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">CSS</span>
+                    <div class="skill-progress">
+                        <div class="skill-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">FLASK</span>
+                    <div class="skill-progress">
+                        <div class="skill-bar" style="width: 30%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JAVA</span>
+                    <div class="skill-progress">
+                        <div class="skill-bar" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">PYTHON</span>
+                    <div class="skill-progress">
+                        <div class="skill-bar" style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>PARTICIPATION</h3>
+            <div class="">
+                <div class="participation">
+                    <span class="participation">HOTEL MANAGEMENT SYSTEM-DBMS PROJECT</span>
+                    <span class="participation-details"> MANAGEMENT SYSTEM-DBMS PROJECT
+                        It was a part of our college curriculum .I worked on this project in a group of two and we used various technologies
+                        such as SQL , HTML CSS , Bootstrap and PHP.</span><br>
+                    
+                </div>
+                <div class="participation">
+                    <span class="participation"> E-HELPING HANDS (Startup idea) </span>
+                    <span class="participation">Active participation in Titan design event movement And presented brief of our project</span>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Contact</h3>
+            <div class="contact">
+                <div class="contact-item">
+                    <span class="contact-icon">&#9993;</span>
+                    <span class="contact-info">6206872005</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">&#128231;</span>
+                    <span class="contact-info">isharathore36@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">&#128206;</span>
+                    <span class="contact-info">linkedin.com/in/isharathore</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 ISHA RATHORE</p>
+        </div>
+    </div>
+</body>
+</html>
